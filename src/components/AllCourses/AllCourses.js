@@ -6,9 +6,9 @@ const AllCourses = () => {
     const [allCourses, setAllCourses] = useState([]);
 
     useEffect(()=>{
-        fetch('./courseDetails.json')
+        fetch('https://raw.githubusercontent.com/shams-jubair/data/main/courseDetails.JSON')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setAllCourses(data))
     },[])
     return (
         <div className="courses-container">
