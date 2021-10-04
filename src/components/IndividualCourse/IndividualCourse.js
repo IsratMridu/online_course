@@ -11,10 +11,10 @@ const IndividualCourse = () => {
 			.then((data) => setCourseInfo(data));
 	}, []);
 	const eachCourse = courseInfo?.filter((info) => info.courseId.includes(courseid));
-    console.log(eachCourse[0]);
+    // console.log(eachCourse[0]);
 
 	return (
-		<div className=" bg-success text-center text-white mx-auto py-3">
+		<div className=" bg-success text-center text-white mx-auto py-5">
             
 			<h1>Course Id: {eachCourse[0]?.courseId}</h1>
             <h2>Course Title: {eachCourse[0]?.courseTitle}</h2>

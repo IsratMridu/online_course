@@ -1,51 +1,48 @@
-import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import AllCourses from './components/AllCourses/AllCourses';
-import IndividualCourse from './components/IndividualCourse/IndividualCourse';
-import About from './components/About/About';
-import NotFound from './components/NotFound/NotFound';
-import Home from './components/Home/Home';
-
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import AllCourses from "./components/AllCourses/AllCourses";
+import IndividualCourse from "./components/IndividualCourse/IndividualCourse";
+import About from "./components/About/About";
+import NotFound from "./components/NotFound/NotFound";
+import Home from "./components/Home/Home";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
-  
   return (
     <div>
       <Router>
-        <Header></Header>
+        <Header />
         <Switch>
-          
-          <Route exact path="/">
-
-            <Home></Home>
+          <Route exact path='/'>
+            <Home />
           </Route>
-          <Route exact path="/home">
-
-            <Home></Home>
+          <Route exact path='/home'>
+            <Home />
           </Route>
 
-          <Route exact path="/allcourses">
-
-              <AllCourses></AllCourses>
+          <Route exact path='/services'>
+            <AllCourses />
           </Route>
-          <Route exact path="/allcourses/:courseid">
-              <IndividualCourse></IndividualCourse>
-          </Route>
-          <Route exact path="/about">
-              <About></About>
-          </Route>
-          <Route path="*">
-              <NotFound></NotFound>
+          <Route exact path='/services/:courseid'>
+            <IndividualCourse />
           </Route>
           
+          <Route exact path='/aboutus'>
+            <About />
+          </Route>
 
+          <Route exact path="/gallery">
+            <Gallery></Gallery>
+          </Route>
+
+          <Route path='*'>
+            <NotFound />
+          </Route>
         </Switch>
-        <Footer></Footer>
+        <Footer />
       </Router>
-
-      
     </div>
   );
 }

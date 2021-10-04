@@ -1,79 +1,90 @@
 [
 	{
-		"courseId": "CSE301",
+		"courseId": "cse301",
 		"courseTitle": "Database Systems",
 		"courseCredits": 4,
 		"courseinstructor": "Dr. Md. Rezwanul huq",
-		"courseFee": 19600
+		"courseFee": 19600,
+        "image": "https://s7280.pcdn.co/wp-content/uploads/2018/07/dbms-database-management-systems-1024x463.jpg"
 	},
 	{
-		"courseId": "CSE464",
+		"courseId": "cse464",
 		"courseTitle": "Advance Database Systems",
 		"courseCredits": 3,
 		"courseinstructor": "Dr. Md. Rezwanul huq",
-		"courseFee": 14600
+		"courseFee": 14600,
+        "image": "https://assets-global.website-files.com/5debb9b4f88fbc3f702d579e/5e3c1a04f9bdda56eebc1ae6_5b24109447ce4bc8b2680bff2d25ac00.png"
 	},
 	{
-		"courseId": "CSE453",
+		"courseId": "cse453",
 		"courseTitle": "Wireless Network",
 		"courseCredits": 3,
 		"courseinstructor": "Dr. Anisur Rahman",
-		"courseFee": 14600
+		"courseFee": 14600,
+        "image": "https://c8.alamy.com/comp/HMPX5B/smart-city-and-wireless-communication-network-business-district-with-HMPX5B.jpg"
 	},
 	{
-		"courseId": "CSE350",
+		"courseId": "cse350",
 		"courseTitle": "Data Communication",
 		"courseCredits": 3,
 		"courseinstructor": "Mostofa Rafid Uddin",
-		"courseFee": 14600
+		"courseFee": 14600,
+        "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(33)(183).jpg"
 	},
 	{
-		"courseId": "CSE325",
+		"courseId": "cse325",
 		"courseTitle": "Operating System",
 		"courseCredits": 4,
 		"courseinstructor": "Masiath Mubasshira",
-		"courseFee": 19600
+		"courseFee": 19600,
+        "image": "https://st.depositphotos.com/2065405/3994/i/950/depositphotos_39942473-stock-photo-word-cloud-operating-system.jpg"
 	},
 	{
-		"courseId": "CSE480",
+		"courseId": "cse480",
 		"courseTitle": "Web Programming",
 		"courseCredits": 4,
 		"courseinstructor": "Abdus Sattar",
-		"courseFee": 19600
+		"courseFee": 19600,
+        "image": "https://freerangestock.com/sample/119557/web-developer--web-development--programmer--programming.jpg"
 	},
 	{
-		"courseId": "PHY209",
+		"courseId": "phy209",
 		"courseTitle": "Basic Physics-I",
 		"courseCredits": 4,
 		"courseinstructor": "Sakiba Shahnaz",
-		"courseFee": 19600
+		"courseFee": 19600,
+        "image": "https://wallpaperaccess.com/full/1133458.jpg"
 	},
 	{
-		"courseId": "CSE442",
+		"courseId": "cse442",
 		"courseTitle": "Microprocessors and Microcontrollers",
 		"courseCredits": 4,
 		"courseinstructor": "Dr. Nawab Yusuf Ali",
-		"courseFee": 19600
+		"courseFee": 19600,
+        "image": "https://microcontrollerslab.com/wp-content/uploads/2017/06/pic18f4550-microcontroller.jpg"
 	},
 	{
-		"courseId": "CSE345",
+		"courseId": "cse345",
 		"courseTitle": "Digital Logic Design",
 		"courseCredits": 4,
 		"courseinstructor": "Musharrat Khan Tonima",
-		"courseFee": 19600
+		"courseFee": 19600,
+        "image": "https://www.elprocus.com/wp-content/uploads/2014/01/Types-of-Digital-Logic-Circuits.jpg"
 	},
 	{
-		"courseId": "CSE475",
+		"courseId": "cse475",
 		"courseTitle": "Machine Learning",
 		"courseCredits": 3,
 		"courseinstructor": "Dr. Md. Golam Rabbani",
-		"courseFee": 14600
+		"courseFee": 14600,
+        "image": "https://editor.analyticsvidhya.com/uploads/70332https___specials-images.forbesimg.com_dam_imageserve_966248982_960x0.jpg"
 	},
 	{
-		"courseId": "CSE477",
+		"courseId": "cse477",
 		"courseTitle": "Data Mining",
 		"courseCredits": 3,
 		"courseinstructor": "Prof. Dr. Mozammel Huq Azad Khan",
-		"courseFee": 14600
+		"courseFee": 14600,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/CRISP_DM_Data_mining_management_process.jpg"
 	}
 ]
